@@ -56,7 +56,7 @@ func (p *PageView) Render() vecty.ComponentOrHTML {
 
 		// Render the markdown.
 		&Markdown{Input: p.Input},
-		&Footer{Copyright: "2018 Brian"},
+		&Footer{Copyright: "2018 Brian Ketelsen-https://github.com/bketelsen/markdownvecty"},
 	)
 }
 
